@@ -1,10 +1,6 @@
-name: Deploy docs content to Pages
+name: Автоматическое привествие нового участника
 
-on:
-  push:
-    branches: ["main"]
-
-  workflow_dispatch:
+on: [push, pull_request, issues]
 
 permissions:
   contents: read
